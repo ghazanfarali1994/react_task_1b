@@ -1,0 +1,55 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.my-primary-clr {
+  background-color: #9bff00;
+}
+
+.my-secondary-clr {
+  background-color: #1d1d1d;
+}
+
+.my-text {
+  color: #696969;
+}
+
+th {
+  font-weight: 100;
+}
+
+.my-grid {
+  display: grid;
+  grid-template-columns: 1fr 3fr 6fr 8fr 1fr;
+}
+
+.my-text-secondary {
+  color: #dbfd51;
+}
+
+.btn {
+  background-color: #9bff00;
+  transition: 250ms;
+}
+
+.btn:hover {
+  background-color: hsl(84, 100%, 40%);
+}
+
+.btn:active {
+  background-color: hsl(84, 100%, 30%);
+}
